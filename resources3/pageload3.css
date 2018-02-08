@@ -1,0 +1,260 @@
+/* aside rules */
+
+aside.navsidebar {
+    top: 0px;
+    left: 0px;
+    padding: 5px 15px 0px 15px;
+    width: 200px;
+    min-height: 1500px;
+    background-color: lightgray;
+    font-size: 12px;
+    position: fixed;
+}
+
+aside.navsidebar h2 {
+    color: brown;
+    border-bottom: thin brown solid;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+aside.navsidebar ul {
+    padding-left: 15px;
+    line-height: 150%;
+}
+
+aside.navsidebar li a {
+    text-decoration: none;
+    transition: padding-left 250ms ease-out;
+}
+
+aside.navsidebar li a:hover {
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+aside.navsidebar img {
+    margin-top: 10px;
+    border: white solid 4px;
+}
+
+/* body rules */
+
+body {
+    font-size: 16px;
+    font-family: Cambria, Georgia, "Times New Roman", serif;
+    margin: 0px 0px 50px 0px;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+section.main {
+    margin-left: 220px;
+    padding: 0px 20px 20px 20px;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+header.siteheader {
+    padding: 5px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    border: thin darkblue solid;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin: 0px;
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 3px 4px red;
+}
+
+p.teaser {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+}
+
+p.byline {
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+}
+
+span.leadin {
+    font-weight: bold;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+figure.floatfigure {
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    box-shadow: 6px 6px 5px gray;
+}
+
+figure.floatfigure figcaption {
+    max-width: 300px;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+article {
+    padding-left: 20px;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+article h3 {
+    color: teal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-variant: small-caps;
+}
+
+article h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+article p {
+    margin-top: 0px;
+}
+
+article p::first-letter {
+    float: left;
+    margin: 6px 2px 0px 0px;
+    font-size: 300%;
+    font-family: Times;
+    vertical-align: top;
+}
+
+aside.pullquote {
+    float: right;
+    max-width: 300px;
+    border-top: thick black solid;
+    border-bottom: thick black solid;
+    font-size: 30px;
+    line-height: 130%;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: 50px;
+}
+
+th,
+td {
+    text-align: center;
+    border: 1px black solid;
+    padding: 3px;
+}
+
+table.zebra tr:nth-child(even) {
+    background-color: lightyellow;
+}
+
+#bonus0,
+#bonus1,
+#bonus2,
+#bonus3 {
+    display: none;
+}
+
+footer {
+    max-width: 700px;
+    min-width: 400px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p.disclaimer {
+    font-style: italic;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+/* table row classes for sorttable.js */
+
+tr.odd {
+    color: yellow;
+    background-color: red;
+    font-weight: bold;
+}
+
+tr.even {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* position-shifting classes for combined images */
+
+span.quotestart {
+   display: inline-block;
+   width: 61px; height: 44px;
+   background-image: url("quotes.png");
+   background-position: 0px 0px;
+   }
+
+span.quoteend {
+   display: inline-block;
+   width: 61px; height: 44px;
+   background-image: url("quotes.png");
+   background-position: -61px 0px;
+   }
+
+span.hero1 {
+   display: inline-block;
+   width: 900px; height: 500px;
+   background-image: url("heroimgs.jpg");
+   background-position: 0px 0px;
+   }
+   
+span.hero2 {
+   display: inline-block;
+   width: 900px; height: 500px;
+   background-image: url("heroimgs.jpg");
+   background-position: -900px 0px;
+   }
+   
+span.hero3 {
+   display: inline-block;
+   width: 900px; height: 500px;
+   background-image: url("heroimgs.jpg");
+   background-position: -1800px 0px;
+   }
+
+span.hero4 {
+   display: inline-block;
+   width: 900px; height: 500px;
+   background-image: url("heroimgs.jpg");
+   background-position: -2700px 0px;
+   }
+   
+span.hero5 {
+   display: inline-block;
+   width: 900px; height: 500px;
+   background-image: url("heroimgs.jpg");
+   background-position: -3600px 0px;
+   }
+   

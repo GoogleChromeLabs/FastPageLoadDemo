@@ -1,0 +1,39 @@
+/* "aside" rules */
+
+aside.navsidebar {
+    top: 0px;
+    left: 0px;
+    padding: 5px 15px 0px 15px;
+    width: 200px;
+    min-height: 1500px;
+    background-color: lightgray;
+    font-size: 12px;
+    position: fixed;
+}
+
+aside.navsidebar h2 {
+    color: brown;
+    border-bottom: thin brown solid;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+aside.navsidebar ul {
+    padding-left: 15px;
+    line-height: 150%;
+}
+
+aside.navsidebar li a {
+    text-decoration: none;
+    transition: padding-left 250ms ease-out;
+}
+
+aside.navsidebar li a:hover {
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+aside.navsidebar img {
+    margin-top: 10px;
+    border: white solid 4px;
+}

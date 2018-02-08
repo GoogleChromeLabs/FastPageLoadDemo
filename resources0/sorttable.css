@@ -1,0 +1,13 @@
+/* table row classes for sorttable.js */
+
+tr.odd {
+    color: yellow;
+    background-color: red;
+    font-weight: bold;
+}
+
+tr.even {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
